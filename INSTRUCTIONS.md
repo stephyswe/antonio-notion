@@ -39,3 +39,10 @@ Publisher: Trunk
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Trunk.io
 
 Powershell: powershell -ExecutionPolicy ByPass -Command 'c:\Users\Stephanie\.cache\trunk\launcher\trunk.ps1' init --vscode
+
+# Landing page
+
+if cache issue when "(marketing)" type rm -rf .next
+
+npx shadcn-ui@latest add dropdown-menu
+npm i next-themes
