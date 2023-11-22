@@ -27,3 +27,15 @@ npx shadcn-ui@latest init
 npm run
 
 npx shadcn-ui@latest add button
+
+# Folders setup
+
+VSC Extension
+Trunk Check
+Id: trunk.io
+Description: One linter to rule them all
+Version: 3.9.0
+Publisher: Trunk
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Trunk.io
+
+Powershell: powershell -ExecutionPolicy ByPass -Command 'c:\Users\Stephanie\.cache\trunk\launcher\trunk.ps1' init --vscode
