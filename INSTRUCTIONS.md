@@ -87,3 +87,7 @@ You should see the following code which expires in 15 minutes: LSLK-DTQZ
 components/provider/convex-provider.tsx - copy from https://github.com/AntonioErdeljac/notion-clone-tutorial/blob/master/components/providers/convex-provider.tsx
 
 npm run dev
+
+# Sidebar
+
+npm i usehooks-ts tailwindcss-animate
