@@ -95,3 +95,4 @@ npm i usehooks-ts tailwindcss-animate
 # User Settings
 
 npx shadcn-ui@latest add -y avatar
+npx shadcn-ui@latest add -y dropdown-menu
