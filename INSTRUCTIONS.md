@@ -46,3 +46,44 @@ if cache issue when "(marketing)" type rm -rf .next
 
 npx shadcn-ui@latest add dropdown-menu
 npm i next-themes
+
+# Authentication & Database
+
+www.convex.dev - login
+https://docs.convex.dev/quickstart/nextjs
+
+- npm install convex
+- npx convex dev
+
+"""
+? Device name: DESKTOP-749U3IJ
+Visit https://auth.convex.dev/activate?user_code=LSLK-DTQZ to finish logging in.
+You should see the following code which expires in 15 minutes: LSLK-DTQZ  
+? Open the browser? Yes
+✔ Saved credentials to C:\Users\Stephanie\.convex\config.json
+? Project name: antonio-notion-clone
+✔ Created project antonio-notion-clone-0aa9e, manage it at https://dashboard.convex.dev/t/stephyswe/antonio-notion-clone-0aa9e
+"""
+
+- convex - clerk guide @ https://docs.convex.dev/auth/clerk
+
+* https://dashboard.clerk.com/sign-up - login - create: "antonio-notion-clone" - disable "email, google" - enable "github" - copy two envs keys to .env.local
+* jwt templates - new template - convex - copy issuer url - apply changes
+* create convex/auth.config.js
+  """
+  export default {
+  providers: [
+  {
+  domain: "https://your-issuer-url.clerk.accounts.dev/", // replace with issuer url
+  applicationID: "convex",
+  },
+  ]
+  };
+  """
+
+[1]: npx convex dev
+[2]: npm install @clerk/clerk-react
+
+components/provider/convex-provider.tsx - copy from https://github.com/AntonioErdeljac/notion-clone-tutorial/blob/master/components/providers/convex-provider.tsx
+
+npm run dev
