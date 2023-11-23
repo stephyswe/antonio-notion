@@ -91,3 +91,7 @@ npm run dev
 # Sidebar
 
 npm i usehooks-ts tailwindcss-animate
+
+# User Settings
+
+npx shadcn-ui@latest add -y avatar
