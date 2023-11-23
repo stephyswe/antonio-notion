@@ -26,7 +26,7 @@ npx shadcn-ui@latest init
 
 npm run
 
-npx shadcn-ui@latest add button
+npx shadcn-ui@latest add -y button
 
 # Folders setup
 
@@ -44,7 +44,7 @@ Powershell: powershell -ExecutionPolicy ByPass -Command 'c:\Users\Stephanie\.cac
 
 if cache issue when "(marketing)" type rm -rf .next
 
-npx shadcn-ui@latest add dropdown-menu
+npx shadcn-ui@latest add -y dropdown-menu
 npm i next-themes
 
 # Authentication & Database
