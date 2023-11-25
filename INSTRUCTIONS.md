@@ -96,3 +96,18 @@ npm i usehooks-ts tailwindcss-animate
 
 npx shadcn-ui@latest add -y avatar
 npx shadcn-ui@latest add -y dropdown-menu
+
+# Schema & API - real-time data fetch
+
+npm i sonner
+npm run dev
+npx convex dev
+
+## add schema.ts before
+https://www.convex.dev/ - login - new schema visible "documents" - show schema
+
+## add documents.ts before
+https://www.convex.dev/ - login - Functions - documents (get/create)
+
+## add page.tsx - create one note
+https://www.convex.dev/ - login - Data - one row
