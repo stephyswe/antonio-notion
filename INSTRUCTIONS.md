@@ -116,3 +116,9 @@ https://www.convex.dev/ - login - Data - one row
 
 npx convex dev
 npm run dev
+
+# Trash box
+
+npx shadcn-ui@latest add popover
+npx shadcn-ui@latest add input
+npx shadcn-ui@latest add alert-dialog
