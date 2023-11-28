@@ -111,3 +111,8 @@ https://www.convex.dev/ - login - Functions - documents (get/create)
 
 ## add page.tsx - create one note
 https://www.convex.dev/ - login - Data - one row
+
+# Document List
+
+npx convex dev
+npm run dev
