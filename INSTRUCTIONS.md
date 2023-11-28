@@ -122,3 +122,11 @@ npm run dev
 npx shadcn-ui@latest add popover
 npx shadcn-ui@latest add input
 npx shadcn-ui@latest add alert-dialog
+
+# Search functionality
+
+npm i zustand
+npx shadcn-ui@latest add command
+npx shadcn-ui@latest add dialog
+
+# 
