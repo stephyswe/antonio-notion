@@ -1,4 +1,5 @@
 "use client";
+
 import { useConvexAuth } from "convex/react";
 import { SignInButton, UserButton } from "@clerk/clerk-react";
 import Link from "next/link";
@@ -19,7 +20,7 @@ export const Navbar = () => {
     <div
       className={cn(
         "z-50 bg-background dark:bg-[#1F1F1F] fixed top-0 flex items-center w-full p-6",
-        scrolled && "border-b shadow-sm",
+        scrolled && "border-b shadow-sm"
       )}
     >
       <Logo />
