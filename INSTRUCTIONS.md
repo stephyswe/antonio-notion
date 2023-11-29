@@ -129,4 +129,6 @@ npm i zustand
 npx shadcn-ui@latest add command
 npx shadcn-ui@latest add dialog
 
-# 
+# Settings
+
+npx shadcn-ui@latest add label
