@@ -132,3 +132,9 @@ npx shadcn-ui@latest add dialog
 # Settings
 
 npx shadcn-ui@latest add label
+
+# Toolbar component (Icon, Title)
+
+npm i react-textarea-autosize
+npm i emoji-picker-react
+
