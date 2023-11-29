@@ -138,3 +138,11 @@ npx shadcn-ui@latest add label
 npm i react-textarea-autosize
 npm i emoji-picker-react
 
+# Cover Image (File Upload)
+
+npm i zod react-dropzone @edgestore/react @edgestore/server
+edgestore.dev - login - new project - "name: antonio-notion" - copy two envs to .env.local
+
+> env.local
+EDGE_STORE_ACCESS_KEY=
+EDGE_STORE_SECRET_KEY=
