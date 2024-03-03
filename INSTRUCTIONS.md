@@ -1,18 +1,18 @@
 npx create-next-app@latest antonio-notion-clone
 
 # Environment Setup
-
+```
 √ Would you like to use TypeScript? Yes
 √ Would you like to use ESLint? Yes
 √ Would you like to use Tailwind CSS? Yes
 √ Would you like to use `src/` directory? No
 √ Would you like to use App Router? (recommended) Yes
 √ Would you like to customize the default import alias (@/\*)? No
+```
+`cd antonio-notion-clone`
 
-cd antonio-notion-clone
-
-npx shadcn-ui@latest init
-
+`npx shadcn-ui@latest init`
+```
 √ Would you like to use TypeScript (recommended)? ... yes
 √ Which style would you like to use? » Default
 √ Which color would you like to use as base color? » Neutral
@@ -23,13 +23,13 @@ npx shadcn-ui@latest init
 √ Configure the import alias for utils: ... @/lib/utils
 √ Are you using React Server Components? ... yes
 √ Write configuration to components.json. Proceed? ... yes
+```
+`npm run`
 
-npm run
-
-npx shadcn-ui@latest add -y button
+`npx shadcn-ui@latest add -y button`
 
 # Folders setup
-
+```
 VSC Extension
 Trunk Check
 Id: trunk.io
@@ -37,33 +37,36 @@ Description: One linter to rule them all
 Version: 3.9.0
 Publisher: Trunk
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Trunk.io
-
-Powershell: powershell -ExecutionPolicy ByPass -Command 'c:\Users\Stephanie\.cache\trunk\launcher\trunk.ps1' init --vscode
+```
+Powershell:
+`powershell -ExecutionPolicy ByPass -Command 'c:\Users\(Username)\.cache\trunk\launcher\trunk.ps1' init --vscode`
 
 # Landing page
 
-if cache issue when "(marketing)" type rm -rf .next
+Use command if cache issue in "(marketing)" - `rm -rf .next`
 
-npx shadcn-ui@latest add -y dropdown-menu
-npm i next-themes
+`npx shadcn-ui@latest add -y dropdown-menu`
+
+`npm i next-themes`
 
 # Authentication & Database
 
 www.convex.dev - login
 https://docs.convex.dev/quickstart/nextjs
 
-- npm install convex
-- npx convex dev
+`npm install convex`
 
-"""
+`npx convex dev`
+
+```
 ? Device name: DESKTOP-749U3IJ
-Visit https://auth.convex.dev/activate?user_code=LSLK-DTQZ to finish logging in.
-You should see the following code which expires in 15 minutes: LSLK-DTQZ  
+Visit https://auth.convex.dev/activate?user_code=XXXX-YYYY to finish logging in.
+You should see the following code which expires in 15 minutes: XXXX-YYYY  
 ? Open the browser? Yes
-✔ Saved credentials to C:\Users\Stephanie\.convex\config.json
+✔ Saved credentials to C:\Users\(Username)\.convex\config.json
 ? Project name: antonio-notion-clone
 ✔ Created project antonio-notion-clone-0aa9e, manage it at https://dashboard.convex.dev/t/stephyswe/antonio-notion-clone-0aa9e
-"""
+```
 
 - convex - clerk guide @ https://docs.convex.dev/auth/clerk
 
@@ -81,68 +84,73 @@ You should see the following code which expires in 15 minutes: LSLK-DTQZ
   };
   """
 
-[1]: npx convex dev
-[2]: npm install @clerk/clerk-react
+`npx convex dev`
+
+`npm install @clerk/clerk-react`
 
 components/provider/convex-provider.tsx - copy from https://github.com/AntonioErdeljac/notion-clone-tutorial/blob/master/components/providers/convex-provider.tsx
 
-npm run dev
+`npm run dev`
 
 # Sidebar
 
-npm i usehooks-ts tailwindcss-animate
+`npm i usehooks-ts tailwindcss-animate`
 
 # User Settings
 
+```
 npx shadcn-ui@latest add -y avatar
 npx shadcn-ui@latest add -y dropdown-menu
+```
 
 # Schema & API - real-time data fetch
 
+```
 npm i sonner
 npm run dev
 npx convex dev
+```
 
-## add schema.ts before
+- add schema.ts before
 https://www.convex.dev/ - login - new schema visible "documents" - show schema
 
-## add documents.ts before
+- add documents.ts before
 https://www.convex.dev/ - login - Functions - documents (get/create)
 
-## add page.tsx - create one note
+- add page.tsx - create one note
 https://www.convex.dev/ - login - Data - one row
 
 # Document List
-
+```
 npx convex dev
 npm run dev
-
+```
 # Trash box
-
+```
 npx shadcn-ui@latest add popover
 npx shadcn-ui@latest add input
 npx shadcn-ui@latest add alert-dialog
-
+```
 # Search functionality
-
+```
 npm i zustand
 npx shadcn-ui@latest add command
 npx shadcn-ui@latest add dialog
-
+```
 # Settings
-
-npx shadcn-ui@latest add label
-
+`npx shadcn-ui@latest add label`
 # Toolbar component (Icon, Title)
-
+```
 npm i react-textarea-autosize
 npm i emoji-picker-react
-
+```
 # Cover Image (File Upload)
+`npm i zod react-dropzone @edgestore/react @edgestore/server`
 
-npm i zod react-dropzone @edgestore/react @edgestore/server
 edgestore.dev - login - new project - "name: antonio-notion" - copy two envs to .env.local
 
-> env.local
+- env.local
+```
 EDGE_STORE_ACCESS_KEY=
 EDGE_STORE_SECRET_KEY=
+```
