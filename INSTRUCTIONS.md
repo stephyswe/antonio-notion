@@ -1,6 +1,8 @@
-npx create-next-app@latest antonio-notion-clone
+
 
 # Environment Setup
+`npx create-next-app@latest antonio-notion-clone`
+
 ```
 √ Would you like to use TypeScript? Yes
 √ Would you like to use ESLint? Yes
